@@ -1,0 +1,25 @@
+.table {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 380px;
+    /* here -y defines the scroll needed in y axis only */
+    overflow-y: scroll;
+    color: #6a5d5d;
+}
+
+.table__header{
+    margin-bottom: 0;
+}
+
+.table__header .cases{
+    margin-right: 20px;
+    
+}
+
+.table tr{
+    display: flex;
+}
+
+.table tr:nth-of-type(even){
+    background-color: #f3f2f8;
+}

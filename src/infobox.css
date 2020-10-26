@@ -1,0 +1,36 @@
+.infoBox{
+    flex:1;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.infoBox:not(:last-child) {
+    margin-right: 15px;
+}
+
+.infoBox__content{
+    font-size: larger;
+    font-weight: 700;
+}
+
+.infoBox__cases{
+    color: #cc1034;
+    font-weight: bold;
+    
+}
+
+.infoBox__total{
+    color: #6c757d;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.infoBox--selected{
+    border-top: solid red 7px;
+}
+
+.infoBox--isRecovered{
+    border-color: #7dd71d;
+    color: #7dd71d;
+}
